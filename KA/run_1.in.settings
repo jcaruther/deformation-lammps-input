@@ -1,0 +1,4 @@
+     # Non-bonded interactions (pair-wise)
+     pair_coeff           1          1          lj/cut                1.000000             1.000000            
+     pair_coeff           1          2          lj/cut                1.500000             0.800000            
+     pair_coeff           2          2          lj/cut                0.500000             0.880000  
