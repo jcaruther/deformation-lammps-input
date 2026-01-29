@@ -89,7 +89,7 @@ fix averages all ave/time ${avg_spacing} $(v_thermo_freq/v_avg_spacing) ${thermo
 fix mom all momentum 1000 linear 1 1 1 angular # Zero out system linear and angular momentum every ps 
 fix tmp all nvt temp ${Temp} ${Temp} 0.5 # NVT, nose-hoover 100 fs T relaxation
 
-variable base_comp_rate equal -3e-06
+variable base_comp_rate equal -0.0006
 variable ts equal 0.005
 variable x_comp_rate equal ${base_comp_rate}/(${base_comp_rate}*${run}*${n_equil}*${ts}+1)
 fix compr all deform 1 x erate ${x_comp_rate} y volume z volume
