@@ -11,7 +11,6 @@ variable    thermo_freq     index   500 # the frequency that instantaneous therm
 variable    avg_freq        index   500 # the frequency that the thermodynamics averages are printed (to file)
 variable    avg_spacing     index   1    # the spacing of snapshots used for average values calculations (printed to file)
 variable    Temp            index   0.25
-variable    pressure        index   1.0 # Pressure during the simulations
 variable    run             index   1
 
 #===========================================================
