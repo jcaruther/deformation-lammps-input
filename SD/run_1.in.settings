@@ -1,0 +1,4 @@
+     # Non-bonded interactions (pair-wise)
+     pair_coeff           1          1          table                /expanse/lustre/scratch/jyungblu/temp_project/dyrelj/archive/aa.table POTENTIAL_1          
+     pair_coeff           1          2          table                /expanse/lustre/scratch/jyungblu/temp_project/dyrelj/archive/ab.table POTENTIAL_1          
+     pair_coeff           2          2          table                /expanse/lustre/scratch/jyungblu/temp_project/dyrelj/archive/bb.table POTENTIAL_1          
